@@ -9,10 +9,7 @@ ToxMe only works with Python 3. It is recommended to use at least Python 3.4.
  1. Install [Python Tornado Framework](http://www.tornadoweb.org/en/stable/)
  2. Install [PyNaCl](https://pypi.python.org/pypi/PyNaCl/)
  3. Go to the place where ToxMe should be installed.
- 4. Download ToxMe:
-    ```bash
-    git clone https://github.com/ovalseven8/ToxMe
-    ```
+ 4. Download ToxMe: `git clone https://github.com/ovalseven8/ToxMe`
  5. `cd ToxMe/src`
  6. You can just run `python3 main.py` and ToxMe is running and creates
     automatically the server's secret key and the database.
