@@ -73,5 +73,3 @@ class Crypto:
 		plain = box.decrypt(ciphertext, nonce)
 		
 		return plain
-
-
