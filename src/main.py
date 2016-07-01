@@ -379,7 +379,7 @@ if __name__ == "__main__":
 	crypto = crypto.Crypto()
 	
 	application = tornado.web.Application([
-		(r"/api", MainHandler),
+		(r"/api", MainHandler),s
 		(r"/pk", PubKeyHandler)
 		])
 	
@@ -391,3 +391,4 @@ if __name__ == "__main__":
 		tornado.ioloop.IOLoop.current().start()
 	finally:
 		logging.info("Server has been stopped!")
+        print("Hello world")
